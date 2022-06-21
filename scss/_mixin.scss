@@ -1,4 +1,10 @@
-@mixin color-background {
-background-color: linear-gradient(to right,$color,$bg) ;
+@mixin color-background($type, $shape, $position) {
+	background: $type($shape at $position, $bg 0%, $color 100%);
+
 }
+@mixin web($type, $shape, $position) {
+	background: $type($position, $shape, $bg 0%, $color 100%);
+    
+}
+
 

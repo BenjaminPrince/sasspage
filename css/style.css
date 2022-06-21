@@ -43,9 +43,6 @@ html, body {
   padding: 4rem 4rem;
   box-sizing: border-box;
   background: #00c1db;
-  background: -moz-radial-gradient(center, ellipse cover, #00c1db 0%, #008da0 100%);
-  background: -webkit-radial-gradient(center, ellipse cover, #00c1db 0%, #008da0 100%);
-  background: radial-gradient(ellipse at center, #00c1db 0%, #008da0 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#00c1db", endColorstr="$color",GradientType=1 );
   display: flex;
   flex-direction: column;

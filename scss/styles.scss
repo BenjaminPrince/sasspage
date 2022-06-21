@@ -46,14 +46,14 @@ html, body {
 	height: 100vh;
 	padding: 4rem 4rem;
 	box-sizing: border-box;
-	background: #00c1db;
-	// background: -moz-radial-gradient(center, ellipse cover, #00c1db 0%, $color 100%);
+	background: $bg;
+	// background: -moz-radial-gradient(center, ellipse cover, $bg 0%, $color 100%);
     //@import web( "-moz-radial-gradient","ellipse cover","center");
-	// background: -webkit-radial-gradient(center, ellipse cover, #00c1db 0%, $color 100%);
+	// background: -webkit-radial-gradient(center, ellipse cover, $bg 0%, $color 100%);
 //@import web( "-webkit-radial-gradient","ellipse cover","center");
-	// background: radial-gradient(ellipse at center, #00c1db 0%, $color 100%);
+	// background: radial-gradient(ellipse at center, $bg 0%, $color 100%);
    // @import color-background("radial-gradient", "ellipse", "center");
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00c1db', endColorstr='$color',GradientType=1 );
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$bg', endColorstr='$color',GradientType=1 );
 	display: flex;
 	flex-direction: column; 
 }

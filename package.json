@@ -1,0 +1,19 @@
+{
+  "name": "sasspage",
+  "version": "1.0.0",
+  "description": "Cet exercice consiste à construire une interface web de type onepage, puis à convertir les styles CSS créés afin de les présenter en exploitant les avantages de SCSS.",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./scss/styles.scss:./css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenjaminPrince/sasspage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BenjaminPrince/sasspage/issues"
+  },
+  "homepage": "https://github.com/BenjaminPrince/sasspage#readme"
+}

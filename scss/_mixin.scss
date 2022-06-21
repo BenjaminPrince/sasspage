@@ -1,4 +1,4 @@
 @mixin color-background {
-background: $color;
+background-color: linear-gradient(to right,$color,$bg) ;
 }
 
